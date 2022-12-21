@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_8/common/back_ground_decoration/widgets/widget.dart';
+import 'package:flutter_application_8/common/back_ground_decoration/widgets/background_clipper.dart';
 import 'package:flutter_application_8/common/constants.dart';
 import 'package:get/get.dart';
 

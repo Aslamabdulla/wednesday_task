@@ -1,16 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_8/common/common.dart';
 
-const backgroundGradient = BoxDecoration(
-  shape: BoxShape.rectangle,
-  gradient: LinearGradient(colors: [
-    Color.fromRGBO(43, 154, 184, 1),
-    Color.fromRGBO(60, 174, 200, .2)
-  ], stops: [
-    0,
-    .7
-  ], begin: Alignment.topCenter, end: Alignment.bottomCenter),
-);
+/////////constant heights////////
 const kheight5 = SizedBox(
   height: 5,
 );
@@ -20,6 +11,8 @@ const kheight10 = SizedBox(
 const kheight15 = SizedBox(
   height: 15,
 );
+
+////////box decorations////////
 final boxDecorationHome = BoxDecoration(
   borderRadius: BorderRadius.circular(15),
   color: kWhite,
@@ -29,4 +22,14 @@ final boxDecorationHome = BoxDecoration(
         blurRadius: 5.0,
         spreadRadius: 0)
   ],
+);
+const backgroundGradient = BoxDecoration(
+  shape: BoxShape.rectangle,
+  gradient: LinearGradient(colors: [
+    Color.fromRGBO(43, 154, 184, 1),
+    Color.fromRGBO(60, 174, 200, .2)
+  ], stops: [
+    0,
+    .7
+  ], begin: Alignment.topCenter, end: Alignment.bottomCenter),
 );
